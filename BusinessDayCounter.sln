@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{58C6BEFF-C01D-43D0-83FD-F8F1162CB75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessDayCounter.API", "BusinessDayCounter.API\BusinessDayCounter.API.csproj", "{1F6F124E-6B79-4A01-AD35-56381C136DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessDayCounter.Services", "BusinessDayCounter.Services\BusinessDayCounter.Services.csproj", "{329061BD-139B-42F3-8A3D-9792C2EDDD1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E72BC018-832F-4EE5-8D28-9ACAD8C7E7E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessDayCounter.Unit.Tests", "BusinessDayCounter.Unit.Tests\BusinessDayCounter.Unit.Tests.csproj", "{E7C20DE0-BE71-4E44-886F-71BC8E112BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessDayCounter.Integration.Tests", "BusinessDayCounter.Integration.Tests\BusinessDayCounter.Integration.Tests.csproj", "{DA129B07-18CE-42E4-BC67-7C2AA825D81B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F6F124E-6B79-4A01-AD35-56381C136DFA} = {58C6BEFF-C01D-43D0-83FD-F8F1162CB75F}
+		{329061BD-139B-42F3-8A3D-9792C2EDDD1B} = {58C6BEFF-C01D-43D0-83FD-F8F1162CB75F}
+		{E7C20DE0-BE71-4E44-886F-71BC8E112BF3} = {E72BC018-832F-4EE5-8D28-9ACAD8C7E7E3}
+		{DA129B07-18CE-42E4-BC67-7C2AA825D81B} = {E72BC018-832F-4EE5-8D28-9ACAD8C7E7E3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F6F124E-6B79-4A01-AD35-56381C136DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6F124E-6B79-4A01-AD35-56381C136DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6F124E-6B79-4A01-AD35-56381C136DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6F124E-6B79-4A01-AD35-56381C136DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329061BD-139B-42F3-8A3D-9792C2EDDD1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329061BD-139B-42F3-8A3D-9792C2EDDD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329061BD-139B-42F3-8A3D-9792C2EDDD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329061BD-139B-42F3-8A3D-9792C2EDDD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C20DE0-BE71-4E44-886F-71BC8E112BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C20DE0-BE71-4E44-886F-71BC8E112BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C20DE0-BE71-4E44-886F-71BC8E112BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C20DE0-BE71-4E44-886F-71BC8E112BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA129B07-18CE-42E4-BC67-7C2AA825D81B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA129B07-18CE-42E4-BC67-7C2AA825D81B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA129B07-18CE-42E4-BC67-7C2AA825D81B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA129B07-18CE-42E4-BC67-7C2AA825D81B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
