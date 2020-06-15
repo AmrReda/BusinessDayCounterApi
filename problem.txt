@@ -1,0 +1,35 @@
+Introduction
+The purpose of this assessment is to obtain further insight into your problem solving,
+design, and coding skills.
+There is no right or wrong answer, but it will give you an opportunity to demonstrate what
+approaches and design techniques you prefer and why.
+You do not have to complete all of the tasks but it is recommended to do so if possible.
+Your solution should be:
+- Correct, and valid (proof it is valid and can work)
+- Maintainable and easy to read and understand. We will look at how do you express logic
+and how do you design API. (to make it better)
+- Extensible (easy to extend holiday algorithm). (to make it better)
+- Considering performance if we need faster calculation between two very far dates what
+would be the solution / optimization?
+The solution should be handed in as a github or bitbucket repository that can be cloned
+and restored in VSS and inspected.
+TASK: Design and Coding - Weekdays between two dates
+Using C# we need to calculate business days between two dates considering multiple
+factors.
+The solution should be an application which exposes a REST endpoint. Main business
+logic should also be testable.
+We are looking to calculate the number of weekdays between two dates. Assume
+weekdays are Monday to Friday. The returned count should not include from date or to
+date.
+Examples:
+- Thu 7/8/2014 to Mon 11/8/2014 should return 1
+- Wed 13/8/2014 to Thu 21/8/2014 should return 5
+Public holidays are a little bit more complex than a simple fixed list of dates, basically three
+types of holidays:
+1. Always on the same day even if it is a weekend (like Anzac Day 25 April every year).
+2. On the same day as far as it is not a weekend (like New Year 1st of every year unless it
+is a weekend, then the holiday would be next Monday).
+3. Certain occurrence on a certain day in a month (like Queen’s Birthday on the second
+Monday in June every year).
+Cater to these types of holidays. Preferably isolate the source of holidays as an arbitrary
+data source (it could be file, db or remote resource).

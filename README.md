@@ -2,7 +2,10 @@
 
 
 
+## Implementation Details
 
-# Assumptions
-- Calculate between for any given two dates.
--  
+ASP.NET Core 3.0
+Serilog
+Swagger Doc
+Unit tests Completed ( xUnit )
+Integration Tests ( Not Completed )
